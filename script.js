@@ -1,6 +1,6 @@
 
 const scrollContainer = documnet.getElementById("infi-list");
-let i = 1;
+let i = 0;
 function addOneItem(){
 	const li = documnet.createElement("li");
 	li.innerText=`Item ${++i}`;
@@ -22,3 +22,4 @@ scrollContainer.addEventListener("scroll", () => {
 		}
 	}
 });
+
