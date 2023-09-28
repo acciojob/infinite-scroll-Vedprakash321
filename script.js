@@ -1,8 +1,8 @@
 
-const scrollContainer = documnet.getElementById("infi-list");
+let scrollContainer = document.getElementById("infi-list");
 let i = 0;
 function addOneItem(){
-	const li = documnet.createElement("li");
+	const li = document.createElement("li");
 	li.innerText=`Item ${++i}`;
 	scrollContainer.appendChild(li);
 	
